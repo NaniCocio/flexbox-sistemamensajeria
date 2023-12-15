@@ -1,0 +1,104 @@
+html{
+    box-sizing: border-box;
+}
+*{
+    font-family: 'Roboto Bold', sans-serif;
+}
+
+.box{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+
+.perfil {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    
+}
+.texto-perfil{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 1rem;
+    gap: 1rem;
+    
+}
+.foto-perfil{
+    width: 25%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.sesion{
+    font-size: 10px;
+    color: #bec1bb;
+}
+.icon{
+    display: flex;
+    gap: 1rem;
+}
+
+.btn{
+    color: #fff;
+    background-color: #a491d2;
+    font-size: 25px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.btn:hover{
+    background-color: #cdc3e6;
+    color: #fff;
+}
+
+.principal {
+    background-color: #E8EBE4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 3;
+    padding: 5rem;   
+}
+
+.contactos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: .1rem;
+
+}
+.contactos:focus{
+    background-color: #bec1bb;
+    color: #fff;
+}
+.logo { 
+    width: 40%;
+    margin-bottom: 1rem;
+}
+h1{
+    font-size: 45px;
+}
+h5{
+    font-size: 25px;
+}
+p{
+    font-size: 14px;
+}
+
+.chat{
+    width: 20%;
+    margin-left: 2rem;
+
+}
+
